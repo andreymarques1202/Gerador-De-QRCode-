@@ -1,0 +1,66 @@
+body {
+    background-image: radial-gradient(circle at 52.5% 21.44%, #ff67ff 0, #ff60ff 16.67%, #c855ff 33.33%, #8846f9 50%, #4337d3 66.67%, #0029af 83.33%, #001e8f 100%);
+    background-size: 100%;
+}
+
+.title-content {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 2652px) and (min-width: 2000px) {
+    .title-content {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 1900px) and (min-width: 1080px){
+    .title-content {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1080px) {
+    body {
+        background-color: #8A2BE2;
+        background-image: none;
+    }
+
+    .title-content {
+        font-size: 45px;
+    }
+
+}
+
+@media (max-width: 720px){
+    body {
+        background-color: #20B2AA;
+        background-image: none;
+    }
+    .title-content {
+        text-align: center;
+
+    }
+}
+
+@media (max-width: 560px) {
+    body {
+        background-image: none;
+        background-color: #00FF7F;
+    }
+    .title-content {
+        text-align: center;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        background-color: #98FB98;
+        background-image: none;
+    }
+    .title-content {
+        text-align: center;
+        font-size: 25px;
+    }
+}
